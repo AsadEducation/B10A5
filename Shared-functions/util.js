@@ -17,14 +17,9 @@ function isValid(InputText) {
 
 function addTransactionHistory(amount, fund, place, currentDate) {
 
-
-
-    
-
-
     newHTML = `
         <div class="border rounded-lg p-3 mt-5 text-center bg-yellow-200">
-        <h2 class="text-2xl font-bold "> ${amount} Taka is Donated For ${fund} ${place}.</h2>
+        <h2 class="text-xl md:text-2xl font-bold "> ${amount} Taka is Donated For ${fund} ${place}.</h2>
         <p>Date : ${currentDate} </p>
        </div>
    `
