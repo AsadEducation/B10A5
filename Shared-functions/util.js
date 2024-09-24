@@ -8,10 +8,9 @@ function isValid(InputText) {
 
     if (InputText == '' || isNaN(InputText)) return false;
 
-    else if (parseFloat(InputText) < 0 || parseFloat(InputText) > mainBalance) return false;
+    else if (parseFloat(InputText) <= 0 || parseFloat(InputText) > mainBalance) return false;
 
     return true;
-
 }
 
 
