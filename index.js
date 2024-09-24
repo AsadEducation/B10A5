@@ -126,7 +126,7 @@ replyId('qouta-btn').addEventListener('click', function (event) {
 
 
     const amount = qoutaBalance;
-    const fund =   "qouta-Flood-Relief";
+    const fund =   "qouta-Relief";
     const place = "qouta";
 
     const currentTime = new Date();
