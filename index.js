@@ -4,6 +4,7 @@ const toggleDonate = replyId('toggle-donate');
 const toggleHistory = replyId('toggle-history');
 const donateSection = replyId('donate-section');
 const historySection = replyId('history-section');
+historySection.classList.add('hidden');
 
 
 toggleDonate.addEventListener('click', function (event) {
